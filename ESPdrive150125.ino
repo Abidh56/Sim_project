@@ -146,7 +146,7 @@ void loop() {
 
   //Print
 
-  if (millis() - timer >= 1) {
+  if (millis() - timer >= 50) {
     //Serial.print("{");
     //    Serial.print("0"); /*steering*/Serial.print(",");
     Serial.print(Gp); /*Gear*/    Serial.print(",");
